@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SillyLib", "SillyLib\SillyLib.csproj", "{968D3815-00D6-443B-B1F6-B22FFACFD1BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SillyTests", "SillyTests\SillyTests.csproj", "{F4C189F4-0034-4DF1-B1A0-03419712A1B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{968D3815-00D6-443B-B1F6-B22FFACFD1BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{968D3815-00D6-443B-B1F6-B22FFACFD1BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{968D3815-00D6-443B-B1F6-B22FFACFD1BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{968D3815-00D6-443B-B1F6-B22FFACFD1BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4C189F4-0034-4DF1-B1A0-03419712A1B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4C189F4-0034-4DF1-B1A0-03419712A1B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4C189F4-0034-4DF1-B1A0-03419712A1B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4C189F4-0034-4DF1-B1A0-03419712A1B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
