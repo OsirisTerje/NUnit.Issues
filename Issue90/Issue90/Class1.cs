@@ -4,7 +4,7 @@ namespace Issue90
 {
     public class Class1
     {
-        readonly string[] myPasswords = { "Tim'sHouse" };
+        readonly static string[] myPasswords = { "Tim'sHouse" };
         [Test]
         [TestCaseSource("myPasswords")]
         public void EnterPassword(string password)
