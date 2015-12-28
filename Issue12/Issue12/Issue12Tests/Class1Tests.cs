@@ -39,8 +39,8 @@ namespace Issue12.Tests
         public async Task CheckLambdas()
         {
             var sut = new Class1();
-            Assert.That(async () => await sut.AddAsync(2, 3), Is.EqualTo(5));
-            Assert.That(async () => await sut.AddAsync(42, 3), Is.EqualTo(45));
+            Assert.That(await sut.AddAsync(2, 3), Is.EqualTo(5));
+            Assert.That(await sut.AddAsync(42, 3), Is.EqualTo(45));
         }
 
     }
