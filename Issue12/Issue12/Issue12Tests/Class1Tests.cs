@@ -20,7 +20,7 @@ namespace Issue12.Tests
         }
 
         [Test]
-        public async void CheckAddAsync()
+        public async Task CheckAddAsync()
         {
             var sut = new Class1();
             var result = await sut.AddAsync(2, 3);
