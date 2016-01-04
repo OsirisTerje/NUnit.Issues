@@ -42,7 +42,13 @@ namespace Issue76
             // ...
             Thread.Sleep(1000);
             // Assertions
-            Assert.IsTrue(!_AnGlobalExceptionWasCaught);
+            Assert.IsTrue(_AnGlobalExceptionWasCaught);
+        }
+
+        [Test]
+        public void CheckThisToo()
+        {
+            Assert.IsTrue(true);
         }
 
         public class DataUploader
