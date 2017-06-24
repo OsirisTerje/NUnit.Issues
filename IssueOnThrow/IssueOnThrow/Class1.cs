@@ -16,7 +16,7 @@ namespace IssueOnThrow
         {
             Assert.That(
                 () => modelConnections.Add(new ModelConnectionChanges("whatever")),
-                Throws.ArgumentException.With.Message.Not.Empty);
+                Throws.ArgumentException.With.Message.Not.Empty, "Did not work");
         }
 
         
