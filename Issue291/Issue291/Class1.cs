@@ -13,7 +13,7 @@ namespace Issue291
         public class InnerClass
         {
             [Test]
-            public void ShouldBeAbleToNavigateHere()
+            public void ShouldBeAbleToNavigateHere_WillItFail()
             {
                 Assert.Fail();
             }
