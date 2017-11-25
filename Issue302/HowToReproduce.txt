@@ -1,0 +1,54 @@
+- Open solution in VS2015 and build it
+- Then either
+
+-- run tests using Visual Studio Test Runner:
+	------Discover test started------
+	NUnit VS Adapter 2.1.1.0 discovering tests is started
+	Assembly not supported: E:\TestSolution\Debug\NativeTests.dll
+	NUnit VS Adapter 2.1.1.0 discovering test is finished
+	NUnit Adapter 3.7.0.0: Test discovery starting
+	Error : Unable to get runner for this assembly.Check installation, including any extensions.
+  **	BadImageFormatException : Format of the executable(.exe) or library(.dll) is invalid.
+	Assembly not supported : E : \TestSolution\Debug\NativeTests.dll
+	NUnit Adapter 3.7.0.0: Test discovery complete
+	== == == == == Discover test finished : 1 found(0:00 : 00, 2642315) == == == == ==
+
+-- or run in VS2015 Developer Command Prompt:
+   TestSolution\Debug>vstest.console.exe NativeTests.dll /InIsolation /logger:trx /UseVsixExtensions:true
+
+	Microsoft(R) Test Execution Command Line Tool Version 14.0.25420.1
+	Copyright(c) Microsoft Corporation.All rights reserved.
+
+	Starting test execution, please wait...
+	Information : NUnit VS Adapter 2.1.1.0 executing tests is started
+
+	Warning : Assembly not supported : E : \TestSolution\Debug\NativeTests.dll
+
+	Information : NUnit VS Adapter 2.1.1.0 executing tests is finished
+
+	Information : NUnit Adapter 3.7.0.0 : Test execution started
+
+	Information : Running all tests in E : \TestSolution\Debug\NativeTests.dll
+
+	Error : Error: Unable to get runner for this assembly.Check installation, including any extensions.
+
+	Error : BadImageFormatException : Format of the executable(.exe) or library(.dll) is invalid.
+
+  **	Warning : Exception System.BadImageFormatException, Exception thrown executing tests
+
+	Warning : Format of the executable(.exe) or library(.dll) is invalid.
+
+	Information : NUnit Adapter 3.7.0.0 : Test execution complete
+
+	Passed   foo_Test
+	Results File : E:\TestSolution\Debug\TestResults\au0002ty_HAUDEERL000DPC 2017 - 06 -
+	29 07_51_03.trx
+
+	Total tests : 1. Passed : 1. Failed : 0. Skipped : 0.
+	Test Run Failed.
+	Test execution time : 1, 2585 Seconds
+
+
+
+
+  
